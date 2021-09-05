@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*ESPAÇAMENTO DAS SESSÕES*/
+.espacamento{
+  min-height: 0 !important;
+}
+/*FIM ESPAÇAMENTO DAS SESSÕES*/
+/*PAGINA DA GALERIA*/
+/*ESPAÇOS LATERAIS*/
+.espaco{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+/*ABRIR E FECHAR DAS IMAGENS*/
+.dialogo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(255,193,193,0.5);
+  z-index: 11111111;
+  opacity: 0;
+  pointer-events: none;
+  overflow: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dialogo:target {
+  opacity: 1;
+  pointer-events: auto;
 }
+
+.imgAberta {
+  position: relative;
+  margin-left: 26%;
+  margin-top: 5%;
+}
+
+.imagemmodal {
+  display: block;
+  float: center;
+  width: 60%;
+  border-radius: 1%;
+}
+
+.fechar {
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;;
+  border-radius: 10%;
+  background-color: #bd5d38;
+}
+
+.fechar:hover {
+  color: #ffffff;
+  background-color: #343a40;
+}
+/* FIM ABRIR E FECHAR DAS IMAGENS*/
+.card iframe{
+  border-radius: 0.25rem 0.25rem 0em 0em !important;
+}
+/*DESCRIÇÃO DO VIDEO*/
+.descVideo{
+  text-align: justify;
+}
+/*FIM DESCRIÇÃO DO VIDEO*/
+/*FIM PAGINA GALERIA*/
+
+/*ESTILIZAÇÃO BANNER PAGINA INICIAL*/
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem !important;
+  font-size: 0.85rem !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 10em !important;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+/*FIM ESTILIZAÇÃO BANNER PAGINA INICIAL*/
