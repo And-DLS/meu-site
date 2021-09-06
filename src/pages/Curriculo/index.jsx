@@ -32,7 +32,7 @@ export const Curriculo = () => {
 	            
 	            <section className="resume-section" id="experience">
 	                <div className="resume-section-content">
-	                    <h2 className="mb-5">Experiencia</h2>
+	                    <h2 className="mb-5">Experiência</h2>
 	                    <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
 	                        <div className="flex-grow-1">
 	                            <h3 className="mb-0">Web Designer e Suporte Técnico</h3>
@@ -124,7 +124,7 @@ export const Curriculo = () => {
 	            </section>
 	            <hr className="m-0" />
 	           
-	            <section className="resume-section" id="interests">
+	            <section className="resume-section espacamento" id="interests">
 	                <div className="resume-section-content">
 	                    <h2 className="mb-5">Qualificações</h2>
 	                    <p>Ser dedicado, pontual, ter bom relacionamento em grupo, facilidade para aprender a executar qualquer função, comunicativo e flexível.</p>
