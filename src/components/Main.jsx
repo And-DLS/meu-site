@@ -44,7 +44,7 @@ export const Footer = () => {
 	return(
 		<>
 			<footer class="bg-secondary bg-opacity-25 py-5">
-		        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Andrey Diógeens Lima da Silva</div></div>
+		        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Andrey Diógenes Lima da Silva</div></div>
 		    </footer>
 		</>
 	)
